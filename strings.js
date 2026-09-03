@@ -14,7 +14,7 @@ let S = "Apple,Banana,Mango";
 let fruits = S.split(",");
 console.log(fruits);
 
-let str = "I love JavaScript";
-console.log(str.includes("JavaScript"));
-console.log(str.includes("Python"));
-console.log(str.replace("JavaScript", "Python"));
+let stri = "I love JavaScript";
+console.log(stri.includes("JavaScript"));
+console.log(stri.includes("Python"));
+console.log(stri.replace("JavaScript", "Python"));
