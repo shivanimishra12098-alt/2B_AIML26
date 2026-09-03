@@ -29,7 +29,11 @@ for(let i=1;i<=n;i++){
     }
     console.log(str);   
 }
+const addNumbers = (...numbers) => {
+    console.log(numbers);
+};
 
+addNumbers(10, 20, 30, 40);
 
 
 
