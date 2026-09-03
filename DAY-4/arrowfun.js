@@ -34,6 +34,27 @@ const addNumbers = (...numbers) => {
 };
 
 addNumbers(10, 20, 30, 40);
+addNumbers("shivi", 10, 20, 30, 40);
+const sum = (...numbers) => {
+    let total = 0;
+    for (let num of numbers) {
+        total += num;
+    }
+    return total;
+};
+console.log(sum(10, 20, 30, 40));
+const student = (name, ...numbers) => {
+    let total = 0;
+
+    for (let num of numbers) {
+        total += num;
+    }
+
+    console.log("Name:", name);
+    console.log("Total:", total);
+};
+
+student("Shivani", 10, 20, 30);
 
 
 
